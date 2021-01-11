@@ -15,17 +15,19 @@ Input:
 - Each rover will be finished sequentially, which means that the second rover won’t start to move until the first one has finished moving.
 
 Output:
+
 The output for each rover should be its final coordinates and heading.
 
 Example:
 
   Input-
-  5 5
-  1) 1 2 N
-     LMLMLMLMM
   
-  2) 3 3 E
-     MMRMMRMRRM
+  Upper-right coordinates: 5 5
+  1) Rover Position: 1 2 N
+     Move Commands:  LMLMLMLMM
+  
+  2) Rover Position: 3 3 E
+     Move Commands:  MMRMMRMRRM
 
   Expected Output-
   1) 1 3 N
