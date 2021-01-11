@@ -23,12 +23,16 @@ Example:
   Input-
   
   Upper-right coordinates: 5 5
+  
   1) Rover Position: 1 2 N
+  
      Move Commands:  LMLMLMLMM
   
   2) Rover Position: 3 3 E
+  
      Move Commands:  MMRMMRMRRM
 
   Expected Output-
   1) 1 3 N
+  
   2) 5 1 E
