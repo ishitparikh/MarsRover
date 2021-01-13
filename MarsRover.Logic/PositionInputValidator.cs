@@ -29,11 +29,6 @@ namespace MarsRover.Logic
                     errorMessage = Constants.INVALIDUPPERPOINTS;
                     return errorMessage;
                 }
-                else if (stringValues[0] != stringValues[1])
-                {
-                    errorMessage = Constants.UPPERCOORDINATESNOTSAME;
-                    return errorMessage;
-                }
                 else
                 {
                     upperXValue = int.Parse(stringValues[0]);

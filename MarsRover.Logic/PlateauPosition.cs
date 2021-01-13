@@ -11,10 +11,10 @@ using static MarsRover.Logic.Common.Enums;
 namespace MarsRover.Logic
 {
     /// <summary>
-    /// SquarePlatePosition class to move rover on square plateau. 
+    /// PlateauPosition class to move rover over the plateau. 
     /// Uses Open/Close Principle by using IMovePosition interface
     /// </summary>
-    public class SquarePlateauPosition : IMovePosition
+    public class PlateauPosition : IMovePosition
     {
         /// <summary>
         /// Interface to validate the inputs using Dependency Inversion Principle (DIP) i.e. Dependency Injection
@@ -22,7 +22,7 @@ namespace MarsRover.Logic
         IPositionInputValidator _positionInputValidator;
         RoverPositionVM roverPositionVM;
 
-        public SquarePlateauPosition(IPositionInputValidator positionInputValidator)
+        public PlateauPosition(IPositionInputValidator positionInputValidator)
         {
             roverPositionVM = new RoverPositionVM();
             _positionInputValidator = positionInputValidator;

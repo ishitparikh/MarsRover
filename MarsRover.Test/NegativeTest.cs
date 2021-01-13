@@ -17,7 +17,7 @@ namespace MarsRover.Test
         public NegativeTest()
         {
             positionInputValidator = new PositionInputValidator();
-            position = new SquarePlateauPosition(positionInputValidator);
+            position = new PlateauPosition(positionInputValidator);
         }
 
         [TestMethod]
@@ -63,21 +63,6 @@ namespace MarsRover.Test
             string updatedPosition = position.MovePosition(moveRoverRequest);
 
             Assert.IsTrue(updatedPosition == Constants.INVALIDMOVECOMMANDS);
-        }
-
-        [TestMethod]
-        public void UpperPointsNotSame()
-        {
-            MoveRoverRequest moveRoverRequest = new MoveRoverRequest()
-            {
-                UpperPointsInput = "6 5",
-                RoverPositionInput = "3 3 E",
-                MoveCommandsInput = "MMRMMRMRRM"
-            };
-
-            string updatedPosition = position.MovePosition(moveRoverRequest);
-
-            Assert.IsTrue(updatedPosition == Constants.UPPERCOORDINATESNOTSAME);
         }
 
         [TestMethod]

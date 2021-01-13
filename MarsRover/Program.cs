@@ -24,7 +24,7 @@ namespace MarsRover
                     if (!string.IsNullOrWhiteSpace(roverPositionInput))
                     {
                         IPositionInputValidator positionInputValidator = new PositionInputValidator();
-                        IMovePosition position = new SquarePlateauPosition(positionInputValidator);
+                        IMovePosition position = new PlateauPosition(positionInputValidator);
 
                         MoveRoverRequest moveRoverRequest = new MoveRoverRequest();
                         moveRoverRequest.UpperPointsInput = upperRightPointsInput;

@@ -17,7 +17,7 @@ namespace MarsRover.Test
         public PositiveTest()
         {
             positionInputValidator = new PositionInputValidator();
-            position = new SquarePlateauPosition(positionInputValidator);
+            position = new PlateauPosition(positionInputValidator);
         }
 
         [TestMethod]

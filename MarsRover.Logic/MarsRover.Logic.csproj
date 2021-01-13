@@ -47,7 +47,7 @@
     <Compile Include="Interface\IMovePosition.cs" />
     <Compile Include="Models\MoveRoverRequest.cs" />
     <Compile Include="Models\RoverPositionVM.cs" />
-    <Compile Include="SquarePlateauPosition.cs" />
+    <Compile Include="PlateauPosition.cs" />
     <Compile Include="Common\Constants.cs" />
     <Compile Include="Common\Validators.cs" />
     <Compile Include="PositionInputValidator.cs" />
