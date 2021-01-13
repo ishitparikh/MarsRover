@@ -1,0 +1,6 @@
+E:\Ishit\Code tryouts\MarsRover\MarsRover.Logic\bin\Debug\MarsRover.Logic.dll
+E:\Ishit\Code tryouts\MarsRover\MarsRover.Logic\bin\Debug\MarsRover.Logic.pdb
+E:\Ishit\Code tryouts\MarsRover\MarsRover.Logic\obj\Debug\MarsRover.Logic.csprojAssemblyReference.cache
+E:\Ishit\Code tryouts\MarsRover\MarsRover.Logic\obj\Debug\MarsRover.Logic.csproj.CoreCompileInputs.cache
+E:\Ishit\Code tryouts\MarsRover\MarsRover.Logic\obj\Debug\MarsRover.Logic.dll
+E:\Ishit\Code tryouts\MarsRover\MarsRover.Logic\obj\Debug\MarsRover.Logic.pdb
